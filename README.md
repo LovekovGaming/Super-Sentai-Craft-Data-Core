@@ -1,4 +1,4 @@
-# Super Sentai Craft Core Data Pack
+# Super Sentai Craft Data Core
 
 This Minecraft data pack provides core functionality for other packs designed for the
 [Super Sentai Craft](https://modrinth.com/mod/super-sentai-craft) mod.
