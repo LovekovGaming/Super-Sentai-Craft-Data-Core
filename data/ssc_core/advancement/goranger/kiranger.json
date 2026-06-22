@@ -1,0 +1,25 @@
+{
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "nbt": "{attributes:[{base:30.0d,id:\"supersentaicraft:is_transforming\"}]}",
+		  "equipment": {
+			"feet": {
+			  "items": "supersentaicraft:kiranger_belt"
+			}
+		  }
+		},
+		"items": [
+		  {
+			"items": "supersentaicraft:kiranger_belt"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+	"function": "ssc_core:check_form/goranger/kiranger"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+	{
+	  "condition": "minecraft:entity_properties",
+	  "entity": "this",
+	  "predicate": {
+		"equipment": {
+		  "feet": {
+			"predicates": {
+			  "minecraft:custom_data": {
+				"Update_form": true
+			  }
+			}
+		  }
+		}
+	  }
+	},
+	{
+	  "condition": "minecraft:entity_properties",
+	  "entity": "this",
+	  "predicate": {
+		"type_specific": {
+		  "type": "minecraft:player",
+		  "advancements": {
+			"ssc_core:player_transformed": false
+		  }
+		}
+	  }
+	}
+  ]
+}

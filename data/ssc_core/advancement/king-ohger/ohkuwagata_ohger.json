@@ -1,0 +1,25 @@
+{
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "nbt": "{attributes:[{base:30.0d,id:\"supersentaicraft:is_transforming\"}]}",
+		  "equipment": {
+			"feet": {
+			  "items": "supersentaicraft:oh_kuwagata_ohger_calibur_zero"
+			}
+		  }
+		},
+		"items": [
+		  {
+			"items": "supersentaicraft:oh_kuwagata_ohger_calibur_zero"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+	"function": "ssc_core:check_form/king-ohger/ohkuwagata_ohger"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "nbt": "{attributes:[{base:30.0d,id:\"supersentaicraft:is_transforming\"}]}",
+		  "equipment": {
+			"feet": {
+			  "items": "supersentaicraft:red_boonboom_changer"
+			}
+		  }
+		},
+		"items": [
+		  {
+			"items": "supersentaicraft:red_boonboom_changer"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+	"function": "ssc_core:check_form/boonboomger/bun_red"
+  }
+}
