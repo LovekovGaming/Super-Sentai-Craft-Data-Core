@@ -1,4 +1,5 @@
 advancement revoke @s only ssc_core:gozyuger/gozyu_leon
+function ssc_core:preprocess_belt
 function #ssc_core:pre_check/gozyuger/gozyu_leon
 execute unless items entity @s armor.feet *[minecraft:custom_data] run function #ssc_core:first_change/gozyuger/gozyu_leon
 

@@ -1,4 +1,5 @@
 advancement revoke @s only ssc_core:boonboomger/bun_violet
+function ssc_core:preprocess_belt
 function #ssc_core:pre_check/boonboomger/bun_violet
 execute unless items entity @s armor.feet *[minecraft:custom_data] run function #ssc_core:first_change/boonboomger/bun_violet
 

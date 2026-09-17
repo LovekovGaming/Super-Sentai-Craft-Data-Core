@@ -1,4 +1,5 @@
 advancement revoke @s only ssc_core:goranger/kiranger
+function ssc_core:preprocess_belt
 function #ssc_core:pre_check/goranger/kiranger
 execute unless items entity @s armor.feet *[minecraft:custom_data] run function #ssc_core:first_change/goranger/kiranger
 

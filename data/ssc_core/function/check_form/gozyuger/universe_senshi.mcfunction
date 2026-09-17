@@ -1,4 +1,5 @@
 advancement revoke @s only ssc_core:gozyuger/universe_senshi
+function ssc_core:preprocess_belt
 function #ssc_core:pre_check/gozyuger/universe_senshi
 execute unless items entity @s armor.feet *[minecraft:custom_data] run scoreboard players set @s ssc.form1n 56
 execute unless items entity @s armor.feet *[minecraft:custom_data] run function #ssc_core:first_change/gozyuger/universe_senshi

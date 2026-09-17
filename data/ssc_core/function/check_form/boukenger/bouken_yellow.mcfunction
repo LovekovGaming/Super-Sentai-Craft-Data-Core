@@ -1,4 +1,5 @@
 advancement revoke @s only ssc_core:boukenger/bouken_yellow
+function ssc_core:preprocess_belt
 function #ssc_core:pre_check/boukenger/bouken_yellow
 execute unless items entity @s armor.feet *[minecraft:custom_data] run function #ssc_core:first_change/boukenger/bouken_yellow
 
