@@ -4,19 +4,13 @@
   "predicate": {
 	"equipment": {
 	  "head": {
-		"items": [
-		  "supersentaicraft:lupat_head"
-		]
+		"items": "supersentaicraft:lupat_head"
 	  },
 	  "chest": {
-		"items": [
-		  "supersentaicraft:lupat_torso"
-		]
+		"items": "supersentaicraft:lupat_torso"
 	  },
 	  "legs": {
-		"items": [
-		  "supersentaicraft:lupat_legs"
-		]
+		"items": "supersentaicraft:lupat_legs"
 	  }
 	}
   }
