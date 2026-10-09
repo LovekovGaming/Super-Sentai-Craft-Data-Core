@@ -1,3 +1,5 @@
+# THIS DATA PACK HAS BEEN DISCONTINUED. USE THE SUCCESSOR PROJECT, [TokuDataCore](https://github.com/LovekovGaming/TokuDataCore)
+
 # Super Sentai Craft Data Core
 
 This Minecraft data pack provides core functionality for other packs designed for the
